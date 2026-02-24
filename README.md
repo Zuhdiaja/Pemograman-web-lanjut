@@ -18,4 +18,4 @@ JOBSHEET 1
 JOBSHEET 2
 [JOBSHEET 2](https://github.com/Zuhdiaja/Pemograman-web-lanjut/blob/main/JOBSHEET2.md)
 POS TUGAS JOBSHEET2
-[POS]()
+[POS](https://github.com/Zuhdiaja/POSPraktikum2)
