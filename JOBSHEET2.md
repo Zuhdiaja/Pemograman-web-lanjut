@@ -61,14 +61,14 @@
 ## Praktikum 3
 
 ## Membuat View
-1. awalan view
+1. awalan view <br>
 ![alt text](/imageJS2/view1.png)
 
-2. direktori blog
+2. direktori blog <br>
 ![alt text](/imageJS2/view2.png)
 
-3. diakses dari controller
+3. diakses dari controller <br>
 ![alt text](/imageJS2/view3.png)
 
-4. meneruskan data ke view
+4. meneruskan data ke view <br>
 ![alt text](/imageJS2/view4.png)
