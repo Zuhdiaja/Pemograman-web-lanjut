@@ -39,5 +39,36 @@
 
 ## Praktikum 2
 
-## Membuan controler
-11. 
+## Membuat controler
+1. hello world from controller <br>
+![alt text](/imageJS2/controller1.png)
+
+2. selamat datang <br>
+![alt text](/imageJS2/controller2.png)
+
+3. about controller <br>
+![alt text](/imageJS2/controller3.png)
+
+4. article controller by ID <br>
+![alt text](/imageJS2/controller4.png)
+
+## Resource Controller
+5. resource photo <br>
+![alt text](/imageJS2/routeList.png)
+
+----------------------------------------------------
+
+## Praktikum 3
+
+## Membuat View
+1. awalan view
+![alt text](/imageJS2/view1.png)
+
+2. direktori blog
+![alt text](/imageJS2/view2.png)
+
+3. diakses dari controller
+![alt text](/imageJS2/view3.png)
+
+4. meneruskan data ke view
+![alt text](/imageJS2/view4.png)

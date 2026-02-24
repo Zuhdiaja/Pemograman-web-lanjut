@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\PhotoController;
 
 Route::get('/', function () {
     return 'selamat datang';
@@ -37,3 +42,22 @@ Route::get('/user/{name?}', function ($name = 'Zuhdi') {
 });
 
 //praktikum 2
+Route::get('/Hello', [WelcomeController::class, 'hello']);
+Route::get('/welcome', [HomeController::class, 'welcome']);
+Route::get('/aboutCTRL', [AboutController::class, 'about']);
+Route::get('/articleCTRL/{id}', [ArticleController::class, 'articles']);
+
+Route::resource('photos', PhotoController::class);
+Route::resource('photos', PhotoController::class)->only([
+    'index', 'show'
+]);
+Route::resource('photos', PhotoController::class)->except([
+    'create', 'store', 'update', 'destroy'
+]);
+
+//praktikum 3
+// Route::get('/greeting', function () {
+// return view('blog.hello', ['name' => 'zuhdi']);
+// });
+
+Route::get('/greeting', [WelcomeController::class,'greeting']);
