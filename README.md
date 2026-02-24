@@ -14,4 +14,4 @@ Teknologi utama yang digunakan: PHP (Laravel) dan Blade Template.
 
 ## KUMPULAN TUGAS
 JOBSHEET 1
-[text](https://github.com/Zuhdiaja/Pemograman-web-lanjut/blob/main/JOBSHEET1.md)
+[JOBSHEET 1](https://github.com/Zuhdiaja/Pemograman-web-lanjut/blob/main/JOBSHEET1.md)
